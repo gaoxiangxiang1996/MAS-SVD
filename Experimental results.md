@@ -5,11 +5,11 @@ Table 1. Performance of Llama-7B compressed by MAS-SVD and baselines on wikitext
 | | FWSVD | 1727 || FWSVD | 20127|| FWSVD | 18156 |
 | | ASVD | 11.14 || ASVD | 51|| ASVD | 1407 |
 | | SVD-LLM | 7.94 || SVD-LLM | 9.56 || SVD-LLM | 13.11 |
-| | MAS-SVD-ALS | 7.76|| MAS-SVD-ALS | 9.21| | MAS-SVD-ALS | 12.49|
-| | MAS-SVD-AGD | 7.29 | | MAS-SVD-AGD | 8.10 | | MAS-SVD-AGD | 9.68 |
+| | **MAS-SVD-ALS** | **7.76**|| **MAS-SVD-ALS** | **9.21**| | **MAS-SVD-ALS** | **12.49**|
+| | **MAS-SVD-AGD** | **7.29** | | **MAS-SVD-AGD** | **8.10** | | **MAS-SVD-AGD** | **9.68** |
 | 50%| SVD | 131715 |60%| SVD | 105474 |
 | | FWSVD | 24391 || FWSVD | 32194 |
 | | ASVD | 15358 || ASVD | 57057 |
 | | SVD-LLM | 23.97 || SVD-LLM | 42.30 |
-| | MAS-SVD-ALS | 20.51|| MAS-SVD-ALS | 41.66|
-| | MAS-SVD-AGD | 11.98 || MAS-SVD-AGD | 14.99 |
+| | **MAS-SVD-ALS** | **20.51**|| **MAS-SVD-ALS** | **41.66**|
+| | **MAS-SVD-AGD** | **11.98** || **MAS-SVD-AGD** | **14.99** |
