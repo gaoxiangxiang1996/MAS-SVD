@@ -1,18 +1,12 @@
 Table 1. Performance of Llama-7B compressed by MAS-SVD and baselines on wikitext task under 20-60% compression ratio.
 |Ratio | Method | PPL |
 | :----: | :----: | :---: |
-| 20%| SVD | 20061 |
-| | FWSVD | 1727 |
-| | ASVD | 11.14 |
-| | SVD-LLM | 7.94 |
-| | MAS-SVD-ALS | 7.76|
-| | MAS-SVD-AGD | 7.29 |
-| 30%| SVD | 13013 |
-| | FWSVD | 20127|
-| | ASVD | 51|
-| | SVD-LLM | 9.56 |
-| | MAS-SVD-ALS | 9.21|
-| | MAS-SVD-AGD | 8.10 |
+| 20%| SVD | 20061 |30%| SVD | 13013 |
+| | FWSVD | 1727 || FWSVD | 20127|
+| | ASVD | 11.14 || ASVD | 51|
+| | SVD-LLM | 7.94 || SVD-LLM | 9.56 |
+| | MAS-SVD-ALS | 7.76|| MAS-SVD-ALS | 9.21|
+| | MAS-SVD-AGD | 7.29 | | MAS-SVD-AGD | 8.10 |
 | 40%| SVD | 52589|
 | | FWSVD | 18156 |
 | | ASVD | 1407 |
